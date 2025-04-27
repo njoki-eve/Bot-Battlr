@@ -1,0 +1,29 @@
+body {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium',;
+}
+
+/* .text-wrap {
+  word-wrap: break-word;
+}
+
+.body-army {
+   overflow-x: scroll ;
+   min-height: 300px;
+   max-width: 100%;
+}
+.ui.grid > .row.bot-army-row {
+  flex-wrap: nowrap;
+  min-height: 100px;
+}
+.ui.grid {
+  padding: 0px 20px;
+} */
