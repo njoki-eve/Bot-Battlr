@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     console.log("Fetching bots...");
-    fetch("http://localhost:3001/bots")
+    fetch("http://localhost:3000/bots")
       .then((response) => {
         console.log("Response:", response);
         if (!response.ok) {
@@ -34,7 +34,7 @@ function App() {
   };
 
   const dischargeBot = (bot) => {
-    fetch(`http://localhost:3001/bots/${bot.id}`, { method: "DELETE" });
+    fetch(`http://localhost:3000/bots/${bot.id}`, { method: "DELETE" });
     setArmy(army.filter((b) => b.id !== bot.id));
     setBots(bots.filter((b) => b.id !== bot.id));
   };
